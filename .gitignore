@@ -53,3 +53,23 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# IAR Embedded Workbench build output
+EWARM/Exe/
+EWARM/Obj/
+EWARM/List/
+EWARM/Debug/
+EWARM/Release/
+*.dep
+*.pbi
+*.pbd
+*.out
+*.map
+
+# IDE and operating-system files
+.vs/
+.vscode/
+*.user
+*.suo
+Thumbs.db
+Desktop.ini
